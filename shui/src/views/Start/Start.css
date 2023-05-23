@@ -1,0 +1,25 @@
+
+.start{
+    width: 411px;
+    height: 823px;
+    background-color: #19274A;
+    padding: 1rem;
+}
+.start__title{
+    font-family: PT Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color:white;
+}
+.logo{
+    margin-right: 20rem;
+}
+.start__title--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
