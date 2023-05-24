@@ -6,6 +6,10 @@ import top from "../../assets/top.png";
 import vector from "../../assets/vector.svg";
 
 function Flow() {
+  const date = new Date();
+  const currentDate = date.toLocaleDateString();
+  const currentTime = date.toLocaleTimeString();
+  // const time = date.toLocalTimeString();
   const navigate = useNavigate();
   const messages = useSelector((state) => {
     return state.messages;
@@ -15,12 +19,9 @@ function Flow() {
   const eachMessageComponent = messages.map((message, index) => {
     return (
       <aside key={index} data-id="flow__container" className="flow__container">
-        <input
-          data-it="flow__date"
-          className="flow__date"
-          type="text"
-          placeholder="MM/DD//YY"
-        />
+        <p data-id="flow__date" className="flow__date">
+          {currentDate}&nbsp;&nbsp;&nbsp;{currentTime}
+        </p>
         <p data-id="flow__text" className="flow__text">
           {message.text}
         </p>

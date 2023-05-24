@@ -34,7 +34,7 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    padding:1rem;
+    padding:.5rem;
     max-width: 347px;
 }
 .flow__username{
@@ -44,12 +44,25 @@
     font-weight: 700;
     text-align: left;
     width: 347px;
-    padding-left:1rem;
+    padding-left:.5rem;
     padding-bottom:1rem;
 }
 .flow__vector{
     position: relative;
-    top:-5px;
+    top:-9px;
     left:307px;
-
+}
+.flow__date{
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    height: 22px;
+    width: 347px;
+    left: 32px;
+    top: 38px;
+    padding-left: .5rem;
+    color:#00000099;
 }
