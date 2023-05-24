@@ -15,9 +15,14 @@ describe('template spec', () => {
   });
 
   it('Check that user input is displayed correctly in the flow.', () => {
-    
+    cy.visit('http://localhost:5175/flow')
+    cy.get('[data-id="flow__username"]').first().should('have.text', '-Nicole & Josefine')
 
   });
 
+  it('Check that user input is displayed correctly in the flow.', () => {
+    cy.visit('http://localhost:5175/flow')
+    cy.get('[data-id="flow__text"]').first().should('have.text', 'Här är ett test för att se om det fungerar')
 
+  });
 })

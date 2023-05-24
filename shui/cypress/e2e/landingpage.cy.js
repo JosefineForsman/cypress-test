@@ -10,8 +10,6 @@ describe('template spec', () => {
 
   it('should be able to click "Skriv en kommentar" further to start writing in the text box.', () => {
     cy.get('[data-id="landing__btn"]').should('have.text', 'Skriv en kommentar').click();
+    cy.get('[data-id="message"]').should('be.visible');
   });
-
-
-
 })
