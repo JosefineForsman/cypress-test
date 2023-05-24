@@ -1,6 +1,6 @@
 import "./Start.css";
-import top from "../../assets/top.png";
-import pen from "../../assets/pen.png";
+import top from "../../assets/top.svg";
+import pen from "../../assets/pen.svg";
 import footer from "../../assets/footer.svg";
 function Start() {
   return (

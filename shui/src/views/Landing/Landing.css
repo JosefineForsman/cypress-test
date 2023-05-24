@@ -1,5 +1,5 @@
 .landing {
-    background: #19274A;
+    background-color: #D7DACE;
     width: 411px;
     height: 823px;
     display: flex;
@@ -17,11 +17,13 @@
 
 .landing__btn {
     font-family: 'PT sans';
+    font-size: 22px;
     width: 220px;
     height: 220px;
-    background: rgba(5, 151, 219, 0.53);
+    background: #FFC176;
     border-radius: 50%;
     color: white;
+    border: none;
 }
 
 

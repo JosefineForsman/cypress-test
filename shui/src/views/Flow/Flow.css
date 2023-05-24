@@ -1,17 +1,10 @@
 .flow{
     width: 411px;
     height:823px;
-    background-color: #19274A;
+    background-color: #D7DACE;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-.flow__footer{
-    height: 150px;
-}
-.flow__pen{
-    width: 72px;
-    height: 72px;
 }
 .flow__container{
     width: 379px;
@@ -24,6 +17,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.flow__date{
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    height: 22px;
+    width: 347px;
+    left: 32px;
+    top: 38px;
+    padding-left: .5rem;
+    color:#00000099;
 }
 .flow__container--text{
     overflow: scroll;
@@ -52,17 +59,12 @@
     top:-9px;
     left:307px;
 }
-.flow__date{
-    font-family: PT Sans;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    height: 22px;
-    width: 347px;
-    left: 32px;
-    top: 38px;
-    padding-left: .5rem;
-    color:#00000099;
+.flow__footer {
+
+}
+.flow__pen{
+    width: 72px;
+    height: 72px;
+    float: right;
+    margin: 1rem;
 }

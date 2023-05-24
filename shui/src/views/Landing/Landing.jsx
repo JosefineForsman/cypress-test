@@ -1,6 +1,6 @@
 import "./Landing.css";
 import footer from '../../assets/footer.svg'
-import top from '../../assets/top.png'
+import top from '../../assets/top.svg'
 
 import { useNavigate } from "react-router-dom";
 
