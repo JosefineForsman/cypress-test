@@ -1,5 +1,9 @@
 const initialState = {
-    messages: []
+    messages: [{
+        text:'Här är ett test för att se om det fungerar',
+        username: 'Nicole & Josefine'
+    }
+    ]
 }
 
 const reducer = (state = initialState, action) =>{
