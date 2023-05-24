@@ -1,1 +1,68 @@
-
+.flow{
+    width: 411px;
+    height:823px;
+    background-color: #19274A;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.flow__footer{
+    height: 150px;
+}
+.flow__pen{
+    width: 72px;
+    height: 72px;
+}
+.flow__container{
+    width: 379px;
+    min-height: 130px;
+    max-height: 190px;
+    background-color: white;
+    margin: auto;
+    text-align: left;
+    margin-bottom:2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flow__container--text{
+    overflow: scroll;
+}
+.flow__text{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding:.5rem;
+    max-width: 347px;
+}
+.flow__username{
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: left;
+    width: 347px;
+    padding-left:.5rem;
+    padding-bottom:1rem;
+}
+.flow__vector{
+    position: relative;
+    top:-9px;
+    left:307px;
+}
+.flow__date{
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    height: 22px;
+    width: 347px;
+    left: 32px;
+    top: 38px;
+    padding-left: .5rem;
+    color:#00000099;
+}
