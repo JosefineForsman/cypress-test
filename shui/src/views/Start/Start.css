@@ -3,7 +3,7 @@
     width: 411px;
     height: 823px;
     background-color: #19274A;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .start__title{
     font-family: PT Sans;
@@ -12,6 +12,7 @@
     line-height: 48px;
     text-align: center;
     color:white;
+    padding:1rem;
 }
 .logo{
     margin-right: 20rem;
@@ -20,6 +21,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
+}
+.start__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+.footer__pen{
+    position: absolute;
+    left:310px;
+    top:730px;
+    width: 4rem;
+}
+.start__footer{
+    margin:0;
+    padding: 0;
+}
+.footer__background{
+    height: 103%;
+    width: 411px;
 }
