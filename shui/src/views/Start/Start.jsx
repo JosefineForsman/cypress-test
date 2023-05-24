@@ -13,7 +13,7 @@ function Start() {
           </h1>
         </article>
         <footer data-id="footer" className="start__footer">
-          <img src={pen} alt="" className="footer__pen" />
+          <img src={pen} alt="" className="footer footer__pen" />
           <img src={footer} alt="" className="footer__background" />
         </footer>
       </article>

@@ -1,1 +1,15 @@
-
+.flow{
+    width: 411px;
+    height:823px;
+    background-color: #19274A;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.flow__footer{
+    height: 150px;
+}
+.flow__pen{
+    width: 72px;
+    height: 72px;
+}
