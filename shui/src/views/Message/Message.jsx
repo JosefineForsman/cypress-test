@@ -28,15 +28,15 @@ function Message() {
     <section>
       <article data-id="message" className="message">
         <img data-id="logo" className="logo message__logo" src={top} alt="" />
-        <textarea
+        <input
           data-id="message__text"
           className="message__text"
-          cols="28"
-          rows="11"
-          placeholder="Vi är grymma!"
+          placeholder="  Vi är grymma!"
           onChange={(e) => setText(e.target.value)}
-        ></textarea>
-        <img src={vector} alt="" className="message__vector" />
+        />
+        <figure className="message__figure">
+          <img src={vector} alt="" className="message__vector" />
+        </figure>
         <input
           data-id="message__input"
           className="message__input"
