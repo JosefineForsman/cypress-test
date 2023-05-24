@@ -13,3 +13,11 @@
     width: 72px;
     height: 72px;
 }
+.flow__container{
+    width: 379px;
+    min-height: 190px;
+    max-height: 210px;
+    background-color: white;
+    margin: auto;
+    text-align: left;
+}
