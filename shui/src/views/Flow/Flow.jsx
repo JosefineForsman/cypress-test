@@ -1,15 +1,14 @@
 import "./Flow.css";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import pen from "../../assets/pen.png";
-import top from "../../assets/top.png";
+import pen from "../../assets/pen.svg";
+import top from "../../assets/top.svg";
 import vector from "../../assets/vector.svg";
 
 function Flow() {
   const date = new Date();
   const currentDate = date.toLocaleDateString();
   const currentTime = date.toLocaleTimeString();
-  // const time = date.toLocalTimeString();
   const navigate = useNavigate();
   const messages = useSelector((state) => {
     return state.messages;
@@ -40,17 +39,14 @@ function Flow() {
   }
   return (
     <section data-id="flow" className="flow">
-      <img src={top} alt="" className="logo flow__logo" />
+      <article>
+      <img onClick={ () => navigate('/')} src={top} alt="" className="logo flow__logo" />
+      </article>
       <article className="flow__container--text">
         {eachMessageComponent}
       </article>
       <footer className="flow__footer">
-        <img
-          data-id="flow__pen"
-          src={pen}
-          className="flow__pen"
-          onClick={navigateToNewMessage}
-        />
+        <img data-id="flow__pen" src={pen} className="flow__pen" onClick={navigateToNewMessage}/>
       </footer>
     </section>
   );
