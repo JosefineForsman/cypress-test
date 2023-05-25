@@ -19,8 +19,6 @@ function Message() {
       username: username,
     };
     dispatch(addMessage(newMessage));
-
-    console.log(newMessage);
     navigate("/flow");
   }
 
